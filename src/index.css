@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: white;
+  text-align: center;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.3);
+}
+
+button {
+  background: linear-gradient(90deg, #00ff99, #00ccff);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #00ffcc;
+}
+
+.success {
+  color: limegreen;
+  font-weight: bold;
+}
+
+.qr {
+  width: 200px;
+  margin: 10px auto;
+}
+
+.profile-pic, .app-icon {
+  width: 80px;
+  border-radius: 50%;
+  margin: 10px;
+}
